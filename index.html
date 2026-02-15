@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shreya Mahajan - MS Computer Science Student specializing in AI/ML, Full-Stack Development, and Cloud Technologies">
+    <title>Shreya Mahajan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">SM</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Shreya Mahajan</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    MS Computer Science student at Santa Clara University with a passion for building intelligent
+                    systems
+                    and scalable applications. Experienced in AI/ML, full-stack development, and cloud technologies.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://linkedin.com/in/shreyamahajan2105" target="_blank" rel="noopener"
+                        class="social-link" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/shreyamahajan2105" target="_blank" rel="noopener" class="social-link"
+                        aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="mailto:samahajan@scu.edu" class="social-link" aria-label="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content" style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    I’m deeply interested in AI, machine learning, and data science- and more recently, generative AI
+                    and
+                    cloud computing. I love solving challenging problems, building intelligent systems, and turning raw
+                    data into meaningful insights.
+                </p>
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    I’ve built strong foundations in Python, Java, SQL, algorithms, and distributed systems, enabling me
+                    to design scalable and efficient solutions. I also recently earned my AWS Certified Solutions
+                    Architect – Associate credential, strengthening my ability to architect secure, fault-tolerant,
+                    serverless, and cloud-native applications.
+                </p>
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    Recently, my team and I won the AWS × INRIX × HighView Hackathon, where we built Studentlytics—an
+                    AI-powered platform that helps students and faculty track academic progress and engagement in real
+                    time. It was an intense 24-hour sprint filled with collaboration, late-night problem-solving, and
+                    learning by doing! 🚀
+                </p>
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    I’m currently applying these skills to real-world projects and am actively seeking New Grad
+                    full-time opportunities starting in 2026 in:
+                </p>
+                <ul
+                    style="list-style-type: disc; margin-bottom: 1rem; padding-left: 2rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    <li>Machine Learning / AI</li>
+                    <li>Solutions Engineering</li>
+                    <li>Software Engineering</li>
+                    <li>Full Stack Development</li>
+                    <li>Cloud & Distributed Systems</li>
+                </ul>
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    I’m open to relocating anywhere in the US.
+                </p>
+                <p style="margin-bottom: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    I’m always excited to connect with people in tech- whether to share ideas, explore collaborations,
+                    or discuss opportunities. If you know of a role or would be open to a referral, I’d truly appreciate
+                    it.
+                </p>
+                <p style="margin-bottom: 0; color: var(--color-text-secondary); line-height: 1.7;">
+                    📩 Feel free to reach out or connect with me at <a href="mailto:samahajan@scu.edu"
+                        style="color: var(--color-primary);">samahajan@scu.edu</a> / <a
+                        href="mailto:sm.shreyamahajan@gmail.com"
+                        style="color: var(--color-primary);">sm.shreyamahajan@gmail.com</a>
+                </p>
+                <p style="margin-top: 1rem; color: var(--color-text-secondary); line-height: 1.7;">
+                    Let’s build something impactful together! ✨
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">A comprehensive toolkit for building intelligent, scalable solutions</p>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Machine Learning & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">CNN</span>
+                        <span class="skill-tag">Large Language Models</span>
+                        <span class="skill-tag">Model Evaluation</span>
+                        <span class="skill-tag">Content-Based Filtering</span>
+                        <span class="skill-tag">KNN</span>
+                        <span class="skill-tag">SVM</span>
+                        <span class="skill-tag">Logistic Regression</span>
+                        <span class="skill-tag">LangChain</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Libraries & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">NLTK</span>
+                        <span class="skill-tag">BeautifulSoup</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Framer Motion</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">EC2</span>
+                        <span class="skill-tag">S3</span>
+                        <span class="skill-tag">DynamoDB</span>
+                        <span class="skill-tag">RDS</span>
+                        <span class="skill-tag">API Gateway</span>
+                        <span class="skill-tag">CloudWatch</span>
+                        <span class="skill-tag">IAM</span>
+                        <span class="skill-tag">VPC</span>
+                        <span class="skill-tag">Route53</span>
+                        <span class="skill-tag">CloudFront</span>
+                        <span class="skill-tag">SQS</span>
+                        <span class="skill-tag">SNS</span>
+                        <span class="skill-tag">EventBridge</span>
+                        <span class="skill-tag">Rekognition</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Cursor AI</span>
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Replicate</span>
+                        <span class="skill-tag">Xcode</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">macOS</span>
+                        <span class="skill-tag">Windows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">Building expertise through hands-on work and research</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Graduate Teaching Assistant</h3>
+                            <span class="timeline-date">Jan 2026 - Present</span>
+                        </div>
+                        <p class="timeline-company">Leavey School of Business, Santa Clara University</p>
+                        <ul class="timeline-details">
+                            <li>Support course operations by managing exam grading workflows, processing
+                                <strong>Scantron data</strong>, and assisting with exam review sessions and office hours
+                            </li>
+                            <li>Ensure <strong>timely communication</strong> with students and faculty</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Graduate Research Assistant</h3>
+                            <span class="timeline-date">Oct 2025 - Present</span>
+                        </div>
+                        <p class="timeline-company">Leavey School of Business, Santa Clara University</p>
+                        <ul class="timeline-details">
+                            <li>Conduct <strong>quantitative data analysis</strong> for research in <strong>empirical
+                                    corporate finance</strong></li>
+                            <li>Perform <strong>hand collection of financial data</strong>, dataset matching, and
+                                extraction of <strong>structured data from PDFs</strong> for econometric analysis</li>
+                            <li>Execute <strong>regression and statistical analysis</strong> using Python, STATA, and
+                                Excel to study venture-capital firms transitioning to Registered Investment Advisor
+                                (RIA) status</li>
+                            <li>Automate <strong>data cleaning, parsing, and report generation</strong> to improve
+                                efficiency</li>
+                            <li>Document workflows and maintain a <strong>clear methodology for data validation and
+                                    reproducibility</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Innovative solutions across Machine Learning, Cloud, and Full-Stack Development
+            </p>
+
+            <!-- Project Category Tabs -->
+            <div class="project-tabs">
+                <button class="project-tab active" data-category="cloud">Cloud</button>
+                <button class="project-tab" data-category="ml">Machine Learning</button>
+                <button class="project-tab" data-category="fullstack">Full Stack</button>
+            </div>
+
+            <!-- ML Projects -->
+            <div class="project-category" data-category="ml">
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="project-badge">🏆 Best Project Award</div>
+                        <h3 class="project-title">FitGeek: ML-Based Recommendation System</h3>
+                        <p class="project-description">
+                            Secured the <strong>Best Project Award</strong> at Major Project Exhibition, outperforming
+                            30+ project groups.
+                            Created a machine learning-driven application using <strong>content-based filtering and
+                                K-Nearest Neighbors</strong>
+                            algorithms, delivering customized workout and diet plans based on user preferences. Built a
+                            diabetes prediction
+                            model using <strong>SVM</strong> trained on Kaggle PIMA dataset, achieving <strong>88%
+                                accuracy</strong>, and developed
+                            a Stress Level Detector contributing to improved healthcare outcomes.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">30+</span>
+                                <span class="stat-label">Teams Outperformed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">10+</span>
+                                <span class="stat-label">New Features</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">88%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">KNN</span>
+                            <span class="tech-tag">SVM</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Content-Based Filtering</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <h3 class="project-title">MedGuide — Medical Diagnosis Assistant</h3>
+                        <span class="project-date">Jun 2023 - Oct 2023</span>
+                        <p class="project-description">
+                            Deployed <strong>Convolutional Neural Networks</strong> to categorize chest X-rays into four
+                            distinct categories, achieving <strong>92% accuracy</strong> in diagnosis and generating
+                            insights to enhance diagnostic precision for medical professionals. Collaborated on a chat
+                            application using <strong>Large Language Models</strong> and <strong>Replicate</strong> to
+                            analyze and answer queries about medical documents.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">92%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4</span>
+                                <span class="stat-label">Categories</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Replicate</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">Genetic Disorder Prediction using the K-Nearest Neighbors Algorithm
+                        </h3>
+                        <span class="project-date">Jul 2023 - Nov 2023</span>
+                        <p class="project-description">
+                            Adapted the <strong>K-Nearest Neighbors algorithm</strong> to predict gene defects in
+                            offspring with an accuracy of <strong>71.4%</strong>. Engineered and analyzed <strong>45 key
+                                features</strong> such as Blood Count, Maternal Gene, Paternal Gene, and Birth Defects
+                            to
+                            improve prediction accuracy. Expanded the training dataset to identify <strong>8 genetic
+                                disorders</strong>, including Cystic Fibrosis, Leber’s Hereditary Optic Neuropathy,
+                            Diabetes, Leigh Syndrome, Cancer, Tay-Sachs, Hemochromatosis, and Mitochondrial Myopathy.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">71.4%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">8</span>
+                                <span class="stat-label">Disorders</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">45</span>
+                                <span class="stat-label">Features</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">KNN</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cloud Projects -->
+            <div class="project-category active" data-category="cloud">
+                <div class="projects-grid">
+                    <div class="project-card featured">
+                        <div class="project-badge">🏆 1st Place Winner</div>
+                        <h3 class="project-title">Studentlytics — AWS × INRIX Hackathon 2025</h3>
+                        <p class="project-description">
+                            Built a <strong>cloud-native, serverless analytics platform</strong> for automated
+                            attendance and
+                            engagement tracking using
+                            AWS services, reducing instructor effort by up to <strong>80%</strong>. Designed RESTful
+                            APIs and
+                            event-driven workflows
+                            to process classroom session data at scale and stream real-time insights to a React +
+                            TypeScript
+                            dashboard.
+                            Integrated <strong>AWS Rekognition</strong> for AI-driven visual attendance detection and
+                            engineered a
+                            scalable,
+                            fault-tolerant backend under 24-hour hackathon constraints, collaborating with 6 teammates
+                            among 254
+                            participants.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">80%</span>
+                                <span class="stat-label">Effort Reduction</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">254</span>
+                                <span class="stat-label">Participants</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">24hr</span>
+                                <span class="stat-label">Hackathon</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">API Gateway</span>
+                            <span class="tech-tag">DynamoDB</span>
+                            <span class="tech-tag">S3</span>
+                            <span class="tech-tag">Step Functions</span>
+                            <span class="tech-tag">Bedrock</span>
+                            <span class="tech-tag">AWS Rekognition</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Full Stack Projects -->
+            <div class="project-category" data-category="fullstack">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">WanderChat — AI Travel Chatbot</h3>
+                        <span class="project-date">Jan 2023 - Apr 2023</span>
+                        <p class="project-description">
+                            Developed a virtual travel companion using <strong>content-based filtering</strong> and a
+                            <strong>React front-end</strong>
+                            with HTML, CSS, and JavaScript, enabling users to discover destinations aligned with
+                            individual interests using Python backend.
+                            Achieved <strong>98% positive user feedback</strong> regarding destination recommendations.
+                            Proposed a recommendation system
+                            for accommodation, transportation, tourist attractions, and food.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">98%</span>
+                                <span class="stat-label">User Satisfaction</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Content-Based Filtering</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <p class="section-subtitle">Recognition for innovation and technical excellence</p>
+
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3 class="achievement-title">Hackathon Winner</h3>
+                    <p class="achievement-subtitle">AWS × INRIX × HighView Hackathon 2025</p>
+                    <p class="achievement-description">
+                        <strong>1st Place, High View Prize</strong> - Built a cloud-native, serverless
+                        analytics
+                        platform
+                        with AWS (Lambda, API Gateway, DynamoDB, S3, Step Functions, Bedrock), reducing
+                        instructor
+                        effort by up to 80%.
+                    </p>
+                    <span class="achievement-date">October 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎓</div>
+                    <h3 class="achievement-title">AWS Certified Solutions Architect</h3>
+                    <p class="achievement-subtitle">Associate Level (SAA-C03)</p>
+                    <p class="achievement-description">
+                        Earned AWS Certified Solutions Architect credential with a score of
+                        <strong>835/1000</strong>,
+                        demonstrating proficiency in AWS services including EC2, VPC, IAM, Lambda,
+                        DynamoDB, S3, API
+                        Gateway,
+                        CloudWatch, and Event-Bridge.
+                    </p>
+                    <span class="achievement-date">November 2025</span>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥇</div>
+                    <h3 class="achievement-title">Best Project Award</h3>
+                    <p class="achievement-subtitle">Major Project Exhibition, University of Mumbai</p>
+                    <p class="achievement-description">
+                        Secured the <strong>Best Project Award</strong> for FitGeek ML recommendation
+                        system,
+                        outperforming <strong>30+ project teams</strong> through strong collaboration
+                        and technical
+                        execution.
+                    </p>
+                    <span class="achievement-date">January 2024 - April 2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <p class="section-subtitle">Contributing to research in AI and machine learning</p>
+
+            <div class="publications-list">
+                <div class="publication-card">
+                    <div class="publication-type">Conference Paper</div>
+                    <h3 class="publication-title">FitGeek: Modelling ML-Based Recommendation System for
+                        Fitness and
+                        Wellness</h3>
+                    <p class="publication-venue">International Conference on Advanced Communication,
+                        Energy and Big Data
+                        (ICACEBD'24)</p>
+                    <p class="publication-date">March 15-16, 2024</p>
+                    <a href="https://doi.org/10.1063/5.0239053" target="_blank" rel="noopener" class="publication-link">
+                        View Publication →
+                    </a>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-type">Journal Paper</div>
+                    <h3 class="publication-title">Genetic Disorder Prediction using the K-Nearest
+                        Neighbors Algorithm
+                    </h3>
+                    <p class="publication-venue">International Journal for Multidisciplinary Research
+                        (IJFMR)</p>
+                    <p class="publication-date">2023</p>
+                    <a href="https://www.ijfmr.com/papers/2023/6/10405.pdf" target="_blank" rel="noopener"
+                        class="publication-link">
+                        View Publication →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Volunteering Section -->
+    <section id="leadership" class="section">
+        <div class="container">
+            <h2 class="section-title">Leadership & Volunteering</h2>
+            <p class="section-subtitle">Leadership roles and community contributions</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Proposal Reviewer</h3>
+                            <span class="timeline-date">Jun 2025 - Jul 2025</span>
+                        </div>
+                        <p class="timeline-company">Grace Hopper Celebration 2025</p>
+                        <ul class="timeline-details">
+                            <li>Volunteered as a proposal reviewer for the Grace Hopper Celebration 2025, evaluating 20+
+                                submissions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Active Member</h3>
+                            <span class="timeline-date">Aug 2023 - Present</span>
+                        </div>
+                        <p class="timeline-company">Google Developer Student Club (GDSC)</p>
+                        <ul class="timeline-details">
+                            <li>Contributed to achieving 'Tier 1' status and ranking among the top 10 clubs in India by
+                                completing the GCF and Gen AI pathways before the deadline on August 22, 2023.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Member & Volunteer</h3>
+                            <span class="timeline-date">Jun 2023 - Sep 2024</span>
+                        </div>
+                        <p class="timeline-company">Rotaract Club of Thane North End (RCTNE)</p>
+                        <ul class="timeline-details">
+                            <li><strong>Annual Independence Day Pet Parade (15th Aug 2023):</strong> Volunteered at
+                                event attended by over 100 pets, in association with Rotary Club.</li>
+                            <li><strong>Biscute Phase 1 (28th July 2023):</strong> Provided care and sustenance to over
+                                50 needy stray animals during heavy rains.</li>
+                            <li><strong>'K3: Khana Kapda Kambal' (26th Mar 2024):</strong> Contributed to donation of
+                                500 food boxes, 500+ clothing items, and 400 blankets to the needy.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Team Leader (Content Team)</h3>
+                            <span class="timeline-date">Jun 2021 - Jun 2022</span>
+                        </div>
+                        <p class="timeline-company">IEEE APSIT SB</p>
+                        <ul class="timeline-details">
+                            <li>Spearheaded the IEEE APSIT SB content team of 10 members, producing technical
+                                documentation and coordinating technical events.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Creative Team Volunteer</h3>
+                            <span class="timeline-date">Feb 2022 - Mar 2022</span>
+                        </div>
+                        <p class="timeline-company">OJUS APSIT</p>
+                        <ul class="timeline-details">
+                            <li>Created detailed drawings, paintings, and craft decoration for college festival
+                                decorations, enhancing the event's visual appeal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">I'm always open to discussing new opportunities, collaborations,
+                or just
+                chatting about tech!</p>
+
+            <div class="contact-grid">
+                <a href="mailto:samahajan@scu.edu" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Email</h3>
+                    <p>samahajan@scu.edu</p>
+                    <p>sm.shreyamahajan@gmail.com</p>
+                </a>
+
+                <a href="https://linkedin.com/in/shreyamahajan2105" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>shreyamahajan2105</p>
+                </a>
+
+                <a href="https://github.com/shreyamahajan2105" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>shreyamahajan2105</p>
+                </a>
+
+                <a href="tel:+16692309554" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+1 (669) 230-9554</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Shreya Mahajan. Built with passion and precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
