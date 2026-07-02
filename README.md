@@ -39,8 +39,8 @@ Location:
   Santa Clara, California 🇺🇸
 
 Education:
-  M.S. Computer Science & Engineering
-  Santa Clara University
+  M.S. Computer Science & Engineering - Santa Clara University (Sept 2024 - June 2026)
+  B.E. Information Technology & Honors in Artificial Intelligence and Machine Learning (June 2020 - May 2024)
 
 Certification:
   AWS Certified Solutions Architect – Associate
