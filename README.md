@@ -282,6 +282,6 @@ Published Machine Learning project.
 
 <p align="center">
 
-### ⭐ *"Building AI systems that are fast, scalable, and solve real-world problems."*
+### ⭐ *"Looking forward to connecting! Thank you for visiting!"* ⭐
 
 </p>
