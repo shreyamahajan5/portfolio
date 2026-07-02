@@ -284,6 +284,6 @@ Published Machine Learning project.
 
 <p align="center">
 
-### ⭐ *"Looking forward to connecting! Thank you for visiting!"* ⭐
+### ⭐ * Looking forward to connecting! Thank you for visiting! * ⭐
 
 </p>
