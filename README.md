@@ -57,6 +57,8 @@ Currently Building:
   - Real-time Voice AI Systems
   - LLM-powered Workflows
   - Cloud-native AI Platforms
+
+OPEN TO WORK ⭐ 
 ```
 
 ---
